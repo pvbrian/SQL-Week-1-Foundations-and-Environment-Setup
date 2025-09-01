@@ -8,7 +8,7 @@
 - Because our end goal is to set up Gitbash into VS Code as it's editor, let's first Install VS Code
 
 ### A. How To Install Visual Studio Code aka. VS Code (For Windows Users)
-1) To Download: click this (link)[https://code.visualstudio.com/download]
+1) To Download: click this [link](https://code.visualstudio.com/download)
 2) Click the big "Windows" button to download the installer.
 3) Run the Installer: Double-click the downloaded .exe file.
 4) Follow the Setup Wizard: Again, defaults are mostly fine, but I recommend these changes:
@@ -18,7 +18,7 @@
 
 ### B. How To Install Git Bash
 
-1) Download: Go to the (official Git website)[https://git-scm.com/download/win.] The download for the standalone 64-bit Git for Windows Setup should start automatically.
+1) Download: Go to the [official Git website](https://git-scm.com/download/win.) The download for the standalone 64-bit Git for Windows Setup should start automatically.
 2) Run the Installer: Double-click the downloaded .exe file.
 3) Follow the Setup Wizard: You can mostly just click "Next" with the default options, with these key exceptions:
 - Select Components: Check "Windows Explorer integration" > "Git Bash Here". This lets you right-click in any folder and open Git Bash there.

@@ -6,7 +6,7 @@
 - Think of Git as the engine, and GitHub as the garage where you store and share your cars (projects).
 
 ## Create a GitHub Profile (Step by Step)
-1) Click this (link)[https://github.com/]
+1) Click this [link](https://github.com/)
 2) Click Sign up.
 3) Enter:
 - Username (pick something professional).

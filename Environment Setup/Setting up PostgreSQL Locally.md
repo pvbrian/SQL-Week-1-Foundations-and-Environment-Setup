@@ -1,7 +1,7 @@
 # How To Download and Install PostgreSQL on Your PC (Step by Step Guide For Windows Users)
 
 ### A. Download the official Windows installer
-- Open the official PostgreSQL Windows download page.
+- Open the [official PostgreSQL Windows download page.](https://www.postgresql.org/download/)
 Choose the latest stable version and click the Windows x86-64 installer. This is the interactive installer provided by EDB.
 - Save the .exe file (e.g., postgresql-17.x-windows-x64.exe) to your Downloads folder.
 Why this installer? 
