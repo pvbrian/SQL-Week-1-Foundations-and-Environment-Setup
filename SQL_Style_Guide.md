@@ -10,6 +10,7 @@
 9. Common Pitfalls and Anti-Patterns
 10. Glossary and Resources
 
+
 ## 1. Introduction
 SQL (Structured Query Language) is the backbone of data manipulation in relational databases. It powers everything from dashboards to real-time analytics and machine learning feature engineering. Poorly written SQL can degrade performance, increase debugging time, and introduce subtle bugs into your data products.
 
@@ -20,23 +21,28 @@ This guide promotes writing SQL that is:
 - Performant even on large datasets
 - Easily maintainable and testable
 
+
 ## 2. Principles and Goals
 - Clarity over cleverness
 - Consistency over convenience
 - Documentation is not optional
 - Simplicity scales
 
+
 ## 3. Capitalization and Case Rules
-✅ SQL keywords in UPPERCASE
-✅ Identifiers in snake_case
+- ✅ SQL keywords in UPPERCASE
+- ✅ Identifiers in snake_case
 
 -- Good
-```sql SELECT user_id, full_name FROM users WHERE is_active = TRUE;
+```sql 
+SELECT user_id, full_name FROM users WHERE is_active = TRUE;
 ```
 
 -- Bad
-``` sql select UserID, FullName from Users where IsActive = true;
+``` sql 
+select UserID, FullName from Users where IsActive = true;
 ```
+
 
 ## 4. Naming Conventions
 | Type    | Convention     | Example                  |
@@ -46,7 +52,10 @@ This guide promotes writing SQL that is:
 | Boolean | is_, has_      | is_active, has_paid      |
 | Index   | idx_ prefix    | idx_orders_user_id       |
 
+
+
 ## 5. Formatting Queries
+
 Structure queries with indentation and clarity:
 ```sql
 SELECT
@@ -63,13 +72,18 @@ ORDER BY
     o.created_at DESC;
 ```
 
+
 ## 6. Comments and Documentation
+
 - Use -- for line comments. Explain intent, not syntax:
+
 ```sql
 -- Get total revenue for the last 30 days
 SELECT SUM(total_amount) FROM orders WHERE created_at > CURRENT_DATE - INTERVAL '30 days';
 ```
+
 - Use Block comments /* block texts */
+
 ```sql
 -- Calculates LTV for customers acquired in the last year
 -- Uses first 365 days of revenue as a proxy
@@ -87,10 +101,12 @@ SELECT
 FROM yearly_revenue
 ```
 
+
 ## 7.Writing Secure and Performant SQL
 - Avoid SELECT *
 - Never trust user input in raw SQL
 - Use LIMIT when exploring data to avoid huge scans
+
 
 ## 8. Tooling and Automation
 - SQLFluff — syntax linter and formatter
@@ -99,21 +115,22 @@ FROM yearly_revenue
 - Airflow — orchestration
 - Metabase/Superset — BI dashboards
 
+
 ## 9. Common Pitfalls and Anti-Patterns
-❌ SELECT *
-❌ Complex logic in JOIN ON
-❌ Not handling NULL explicitly
-❌ Unindexed filter columns
-❌ Using aggregation but missing grouping columns
+- SELECT * ❌
+- Complex logic in JOIN ON ❌
+- Not handling NULL explicitly ❌
+- Unindexed filter columns ❌
+- Using aggregation but missing grouping columns ❌
+
 
 ## 10.Glossary and Abbreviations
-DDL: Data Definition Language
-DML: Data Manipulation Language
-SARGable: Search Argument-able
-CTE: Common Table Expression
-PK: Primary Key
-FK: Foreign Key
-CRUD: Create Read Update Delete
+- DDL: Data Definition Language
+- DML: Data Manipulation Language
+- CTE: Common Table Expression
+- PK: Primary Key
+- FK: Foreign Key
+- CRUD: Create Read Update Delete
 
 
 
