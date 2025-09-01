@@ -1,0 +1,2 @@
+- How to Download and Install DBeaver will be shown during virtual meetup
+- How to Setup PostgreSQL in Cloud will be shown during virtual meetup
