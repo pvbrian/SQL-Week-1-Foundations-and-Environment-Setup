@@ -1,14 +1,14 @@
 # Table of Contents
-1. Introduction
-2. Principles and Goals
-3. Capitalization and Case Rules
-4. Naming Conventions
-5. Formatting Queries
-6. Comments and Documentation
-7. Wring secure and perfomant SQL
-8. Tooling and Automation
-9. Common Pitfalls and Anti-Patterns
-10. Glossary and Resources
+1. [Introduction](#introduction)
+2. [Principles and Goals](#principles-and-goals)
+3. [Capitalization and Case Rules](#capitalization-and-case-rules)
+4. [Naming Conventions](#naming-conventions)
+5. [Formatting Queries](#formatting-queries)
+6. [Comments and Documentation](#comments-and-documentation)
+7. [Wring secure and perfomant SQL](#wring-secure-and-perfomant-sql)
+8. [Tooling and Automation](#tooling-and-automation)
+9. [Common Pitfalls and Anti-Patterns](#common-pitfalls-and-anti-patterns)
+10.[Glossary and Resources](#glossary-and-resources)
 
 
 ## 1. Introduction
@@ -85,8 +85,8 @@ SELECT SUM(total_amount) FROM orders WHERE created_at > CURRENT_DATE - INTERVAL 
 - Use Block comments /* block texts */
 
 ```sql
--- Calculates LTV for customers acquired in the last year
--- Uses first 365 days of revenue as a proxy
+/*Calculates LTV for customers acquired in the last year
+   Uses first 365 days of revenue as a proxy */
 WITH yearly_revenue AS (
     SELECT
         user_id,
