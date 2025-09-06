@@ -1,14 +1,15 @@
 # Table of Contents
-1. [Introduction](#introduction)
-2. [Principles and Goals](#principles-and-goals)
-3. [Capitalization and Case Rules](#capitalization-and-case-rules)
-4. [Naming Conventions](#naming-conventions)
-5. [Formatting Queries](#formatting-queries)
-6. [Comments and Documentation](#comments-and-documentation)
-7. [Wring secure and perfomant SQL](#wring-secure-and-perfomant-sql)
-8. [Tooling and Automation](#tooling-and-automation)
-9. [Common Pitfalls and Anti-Patterns](#common-pitfalls-and-anti-patterns)
-10.[Glossary and Resources](#glossary-and-resources)
+1. [Introduction](#1-introduction)
+2. [Principles and Goals](#2-principles-and-goals)
+3. [Capitalization and Case Rules](#3-capitalization-and-case-rules)
+4. [Naming Conventions](#4-naming-conventions)
+5. [Formatting Queries](#5-formatting-queries)
+6. [Comments and Documentation](#6-comments-and-documentation)
+7. [Wring secure and perfomant SQL](7-#wring-secure-and-perfomant-sql)
+8. [Tooling and Automation](#8-tooling-and-automation)
+9. [Common Pitfalls and Anti-Patterns](#9-common-pitfalls-and-anti-patterns)
+
+10.[Glossary and Resources](#10-glossary-and-resources)
 
 
 ## 1. Introduction
